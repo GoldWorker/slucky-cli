@@ -1,12 +1,17 @@
 {
   "name": "@slucky/cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "A good tool for slucky",
+  "homepage": "http://www.brandf.cn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoldWorker/slucky-cli.git"
+  },
   "bin": {
     "sc": "/bin/sc.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish"
   },
   "author": "flyteng",
   "license": "ISC",
